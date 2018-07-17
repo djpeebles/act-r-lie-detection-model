@@ -8,7 +8,7 @@ Instructions for use.
 4. In your lisp, load the 'load-act-r.lisp' file.
 5. Load the 'lie-detection.lisp' file.
 6. Run the model using the 'runsim' funtion.  For example (runsim 100 “easy”) runs 100 simulated participants on the 'easy' condition.
-For each simulared participant the model outputs the following data comparing the human data for each diagnosticity condition with the response proportions from the model after the training phase (Model-trn) and the testing phase (Model-tst).
+For each simulated participant the model outputs the following data comparing the human data for each diagnosticity condition with the response proportions from the model after the training phase (Model-trn) and the testing phase (Model-tst).
 
 S: 99 (easy) ((silence 30) (voice 40) (self 50) (face 80))  
 13 13 22 31  
