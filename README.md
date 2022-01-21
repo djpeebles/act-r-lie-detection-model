@@ -2,12 +2,13 @@
 An ACT-R model of experimental data presented by Street, Bischof, Vadillo and Kingstone (2016)
 
 Instructions for use.
-1. Extract the actr7.zip file containing the ACT-R code.
-2. In the resulting actr7 folder, create a folder called 'models'.
-3. In the 'models' folder place the three lisp files: lie-detection.lisp, lhststs.lisp, and package.lisp.
-4. In your lisp, load the 'load-act-r.lisp' file.
-5. Load the 'lie-detection.lisp' file.
-6. Run the model using the 'runsim' funtion.  For example (runsim 100 “easy”) runs 100 simulated participants on the 'easy' condition.
+1. Download ACT-R code from here: https://act-r.psy.cmu.edu/software/ (these models work with ACT-R v. 7.27)
+2. Extract the actr7.zip file containing the ACT-R code.
+3. In the resulting actr7 folder, create a folder called 'models'.
+4. In the 'models' folder place the three lisp files: lie-detection.lisp, lhststs.lisp, and package.lisp.
+5. In your lisp, load the 'load-act-r.lisp' file.
+6. Load the 'lie-detection.lisp' file.
+7. Run the model using the 'runsim' funtion.  For example (runsim 100 “easy”) runs 100 simulated participants on the 'easy' condition.
 For each simulated participant the model outputs the following data comparing the human data for each diagnosticity condition with the response proportions from the model after the training phase (Model-trn) and the testing phase (Model-tst).
 
 S: 99 (easy) ((silence 30) (voice 40) (self 50) (face 80))  
